@@ -1,13 +1,13 @@
 import React from 'react';
 import Contents from './Contents.jsx';
-import { Navbar, Nav,Button,Container,Row,Col}  from 'react-bootstrap';
+import { Navbar, Nav,Button,Container,Row,Col,Breadcrumb}  from 'react-bootstrap';
 
 function NavBar() {
     return (
-        <Navbar bg="primary" variant="dark">
-        <Navbar.Brand href="/home">Home</Navbar.Brand>
+        <Navbar className="navbar_wrapper">
+        <Navbar.Brand href="/home">ExpFinder</Navbar.Brand>
         <Nav className="mr-auto">
-          <Nav.Link href="/page1">Page 1</Nav.Link>
+          <Nav.Link className="navbar_link" href="/page1">Find Opportunities</Nav.Link>
           <Nav.Link href="/page2">Page 2</Nav.Link>
           <Nav.Link href="/page3">Page 3</Nav.Link>
         </Nav>
@@ -19,7 +19,7 @@ function NavBar() {
 
 function Footer() {
     return (
-        <div style={{background:'#161e2c', color:'white', height:'200px'}}>
+        <div style={{background:'#0052ff', color:'white', height:'200px'}}>
     
     <Container>
   <Row>

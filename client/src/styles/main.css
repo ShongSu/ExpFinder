@@ -1,3 +1,19 @@
 h1 {
     background-color: red;
 }
+.navbar_wrapper {
+    background-color: #0052ff;
+    padding: 16px 160px;
+}
+
+.navbar-light .navbar-brand {
+    color: white
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white
+}
+
+.card {
+    margin: 16px
+}
